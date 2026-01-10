@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+.main {
+    background-color:white;
+    margin: auto;
+    width: 600px;
+    border: 20px solid white;
+    border-radius: 20px;
+color: hsl(30, 10%, 34%);
+}
+#pic {
+    width: 100%;
+    border-radius: 10px;
+}
+h3 {
+    color: hsl(332, 51%, 32%)
+}
+.prep {
+    background-color: hsl(330, 100%, 98%);
+}
+h2 {
+    color: hsl(14, 45%, 36%)
+}
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+ul>::marker {
+    color: hsl(14, 45%, 36%);
+}
+ ol>::marker {
+     font-weight: bold;
+    color: hsl(14, 45%, 36%);
+ }
+ .right {
+     color: hsl(14, 45%, 36%);
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     min-width: 120px;
+ }
+ .nutrition li {
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding: 8px 0;
+ }
